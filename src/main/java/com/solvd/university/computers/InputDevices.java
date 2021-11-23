@@ -4,7 +4,7 @@ public abstract class InputDevices {
     private String input;
     private String brand;
 
-    public InputDevices(String input,String brand){
+    protected InputDevices(String input,String brand){
         this.input=input;
         this.brand=brand;
     }

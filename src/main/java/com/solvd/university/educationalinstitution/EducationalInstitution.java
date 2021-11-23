@@ -1,13 +1,12 @@
 package src.main.java.com.solvd.university.educationalinstitution;
 
-
 public abstract class EducationalInstitution {
     private String type;
     private String city;
     private String state;
     private String name;
     
-    public EducationalInstitution() {
+    protected EducationalInstitution() {
     }
 
     public String getType() {

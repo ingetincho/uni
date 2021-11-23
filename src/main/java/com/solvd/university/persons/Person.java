@@ -7,7 +7,7 @@ public abstract class Person implements Hobbies{
     protected String gender;
     protected int age;
 
-    public Person(){
+    protected Person(){
     }
 
     public Person(String name) {
